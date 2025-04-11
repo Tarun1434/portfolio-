@@ -3,30 +3,23 @@ import { GraduationCap, Calendar } from "lucide-react"
 const educationData = [
   {
     id: 1,
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    period: "2018 - 2020",
+    degree: "FullStack Web Development",
+    institution: "Nxtwave Distruptive Technologies",
+    location: "Online",
+    period: "2022 - 2026",
     description:
-      "Specialized in Artificial Intelligence and Machine Learning. Completed thesis on Neural Network Optimization Techniques.",
+      "Learned Full Stack Web Development from NxtWave with practical skills in HTML, CSS, JavaScript, React, Node.js, Express.js, and MySQL through real-world projects.",
   },
   {
     id: 2,
-    degree: "Bachelor of Science in Computer Engineering",
-    institution: "Massachusetts Institute of Technology",
-    location: "Cambridge, MA",
-    period: "2014 - 2018",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "Kiranmayi Degree College",
+    location: "Srikakulam, Pathapatnam",
+    period: "2022 - 2025",
     description:
-      "Graduated with honors. Focused on software engineering and data structures. Participated in multiple hackathons and coding competitions.",
+      "Pursuing B.Sc. in Computer Science with a focus on programming, web development, and database systems.",
   },
-  {
-    id: 3,
-    degree: "High School Diploma",
-    institution: "Tech Preparatory Academy",
-    location: "San Francisco, CA",
-    period: "2010 - 2014",
-    description: "Advanced placement in mathematics and computer science. President of the Coding Club.",
-  },
+ 
 ]
 
 const Education = () => {

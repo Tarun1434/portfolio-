@@ -16,7 +16,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
-          DevPortfolio
+          Tarun's Portfolio
         </a>
 
         {/* Mobile menu button */}
@@ -31,6 +31,12 @@ const Header = () => {
             className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
           >
             Home
+          </a>
+          <a
+            href="#skills"
+            className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+          >
+            Skills
           </a>
           <a
             href="#projects"
@@ -76,6 +82,13 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Home
+            </a>
+            <a
+              href="#skills"
+              className="py-3 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Skills
             </a>
             <a
               href="#projects"

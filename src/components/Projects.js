@@ -3,42 +3,46 @@ import { ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "College Admission Website",
     description:
-      "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Redux"],
-    demoLink: "https://example.com",
-    githubLink: "https://github.com/username/project",
-    image: "/placeholder.svg?height=200&width=400",
+      "A responsive college website built using React, HTML, CSS, and Bootstrap. It features an admission form where submitted student details are automatically sent to a connected Google Sheet for real-time data collection and management.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap", "Google Sheets"],
+    demoLink: "https://example.com", // replace with your live link
+    githubLink: "https://github.com/Tarun1434/KIranmayieducationalnstitiutions",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744362757/Screenshot_2025-04-11_144207_ugn38a.png?height=400&width=400",
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team workspaces.",
-    technologies: ["React", "Firebase", "Tailwind CSS", "Context API"],
-    demoLink: "https://example.com",
-    githubLink: "https://github.com/username/project",
-    image: "/placeholder.svg?height=200&width=400",
+    title: "FLAMES Relationship Finder",
+    description:
+      "A fun and interactive web app that calculates relationship compatibility using the FLAMES game logic. Built with React, it captures two names and dynamically shows the relationship result.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap"],
+    demoLink: "https://example.com", // replace with your live link
+    githubLink: "https://github.com/yourusername/flames-relationship",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363400/Screenshot_2025-04-11_145249_b9x768.png?height=400&width=200",
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A weather application that displays current and forecasted weather data using external APIs.",
-    technologies: ["JavaScript", "HTML", "CSS", "Weather API"],
-    demoLink: "https://example.com",
-    githubLink: "https://github.com/username/project",
-    image: "/placeholder.svg?height=200&width=400",
+    title: "WhatsApp ChatBot",
+    description:
+      "A simple WhatsApp chatbot that sends automated replies to user queries. Integrates deliver real-time responses based on user input.",
+    technologies: [ "JavaScript", "HTML", "CSS"],
+    demoLink: "https://example.com", // replace with your live link
+    githubLink: "https://github.com/yourusername/whatsapp-chatbot",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363551/Xenioo-WhatsApp-Chatbots_nzitpk.png?height=200&width=400",
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    description: "A personal portfolio website showcasing projects and skills with a modern design.",
+    title: "Personal Portfolio Website",
+    description:
+      "A modern, responsive portfolio built using React and Tailwind CSS. It showcases personal projects, skills, and a downloadable resume with animated transitions using Framer Motion.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demoLink: "https://example.com",
-    githubLink: "https://github.com/username/project",
-    image: "/placeholder.svg?height=200&width=400",
+    demoLink: "https://example.com", // replace with your live link
+    githubLink: "https://github.com/yourusername/portfolio-website",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363694/Screenshot_2025-04-11_145757_obvoci.png?height=200&width=400",
   },
-]
+];
+
 
 const Projects = () => {
   return (

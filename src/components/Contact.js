@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { Send, Github, Linkedin, MessageSquare } from "lucide-react"
 
@@ -71,20 +69,20 @@ const Contact = () => {
             <div className="space-y-6">
               <div>
                 <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-2">Location</h4>
-                <p className="text-gray-600 dark:text-gray-400">San Francisco, California</p>
+                <p className="text-gray-600 dark:text-gray-400">Srikakulam, Pathapatnam</p>
               </div>
 
               <div>
                 <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-2">Email</h4>
                 <a href="mailto:contact@example.com" className="text-emerald-600 dark:text-emerald-400 hover:underline">
-                  contact@example.com
+                  tarunpotnuru2251@gmail.com
                 </a>
               </div>
 
               <div>
                 <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-2">Phone</h4>
                 <a href="tel:+11234567890" className="text-emerald-600 dark:text-emerald-400 hover:underline">
-                  +1 (123) 456-7890
+                  +91 8712126284
                 </a>
               </div>
 
@@ -92,7 +90,7 @@ const Contact = () => {
                 <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">Social Profiles</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/username"
+                    href="https://github.com/Tarun1434"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded-full hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-colors"
@@ -101,7 +99,7 @@ const Contact = () => {
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/username"
+                    href="https://www.linkedin.com/in/tarun-potnuru-436389247/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded-full hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-colors"
@@ -110,7 +108,7 @@ const Contact = () => {
                     <Linkedin size={20} />
                   </a>
                   <a
-                    href="https://wa.me/11234567890"
+                    href="https://wa.me/8712126284"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded-full hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-colors"
@@ -150,7 +148,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                  placeholder="John Doe"
+                  placeholder="Tarun Potnuru"
                 />
               </div>
 
@@ -166,7 +164,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                  placeholder="john@example.com"
+                  placeholder="abcxyz@example.com"
                 />
               </div>
 

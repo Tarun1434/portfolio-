@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 mt-10 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">
-            Hi, I'm <span className="text-emerald-600 dark:text-emerald-400">John Doe</span>
+            Hi, I'm <span className="text-emerald-600 dark:text-emerald-400">Tarun Potnuru</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
             Full Stack Developer
@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=1sVu8rz5ZAttxnqzRp9xMmKZQk341mSpD"
               download
               className="flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
             >
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-500 dark:border-emerald-400 shadow-xl">
-            <img src="/placeholder.svg?height=320&width=320" alt="Profile" className="w-full h-full object-cover" />
+            <img src="https://res.cloudinary.com/dsnjnciud/image/upload/v1744363229/WhatsApp_Image_2025-04-11_at_2.49.52_PM_b5pmrx.jpg" alt="Profile" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
