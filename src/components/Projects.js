@@ -7,7 +7,7 @@ const projects = [
     description:
       "A responsive college website built using React, HTML, CSS, and Bootstrap. It features an admission form where submitted student details are automatically sent to a connected Google Sheet for real-time data collection and management.",
     technologies: ["React", "HTML", "CSS", "Bootstrap", "Google Sheets"],
-    demoLink: "https://example.com", // replace with your live link
+    demoLink: "https://kiranmayieducationalnstitiution.vercel.app/", 
     githubLink: "https://github.com/Tarun1434/KIranmayieducationalnstitiutions",
     image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744362757/Screenshot_2025-04-11_144207_ugn38a.png?height=400&width=400",
   },
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A fun and interactive web app that calculates relationship compatibility using the FLAMES game logic. Built with React, it captures two names and dynamically shows the relationship result.",
     technologies: ["React", "HTML", "CSS", "Bootstrap"],
-    demoLink: "https://example.com", // replace with your live link
+    demoLink: "https://flames.ccbp.tech/", 
     githubLink: "https://github.com/yourusername/flames-relationship",
     image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363400/Screenshot_2025-04-11_145249_b9x768.png?height=400&width=200",
   },
@@ -27,19 +27,20 @@ const projects = [
     description:
       "A simple WhatsApp chatbot that sends automated replies to user queries. Integrates deliver real-time responses based on user input.",
     technologies: [ "JavaScript", "HTML", "CSS"],
-    demoLink: "https://example.com", // replace with your live link
+    demoLink: "https://whatsappchatbot.ccbp.tech/", 
     githubLink: "https://github.com/yourusername/whatsapp-chatbot",
     image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363551/Xenioo-WhatsApp-Chatbots_nzitpk.png?height=200&width=400",
   },
   {
     id: 4,
-    title: "Personal Portfolio Website",
+    title: "Tech Stack",
     description:
-      "A modern, responsive portfolio built using React and Tailwind CSS. It showcases personal projects, skills, and a downloadable resume with animated transitions using Framer Motion.",
+      "This project is a full-stack web application for managing and studying programming interview questions. It features user authentication, question saving/unsaving, and language-based question filtering, using a React frontend and an Express.js backend with MySQL for data storage.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demoLink: "https://example.com", // replace with your live link
-    githubLink: "https://github.com/yourusername/portfolio-website",
-    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363694/Screenshot_2025-04-11_145757_obvoci.png?height=200&width=400",
+    demoLink: "https://whatsappchatbot.ccbp.tech/", 
+    githubLink: "https://tech-stack-question.vercel.app/",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1745301704/Screenshot_2025-04-22_113041_djnrw6.png?height=200&width=400",
+ 
   },
 ];
 
