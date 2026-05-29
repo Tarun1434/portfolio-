@@ -1,15 +1,15 @@
 import { GraduationCap, Calendar } from "lucide-react"
 
 const educationData = [
-  {
-    id: 1,
-    degree: "FullStack Web Development",
-    institution: "Nxtwave Distruptive Technologies",
-    location: "Online",
-    period: "2022 - 2026",
-    description:
-      "Learned Full Stack Web Development from NxtWave with practical skills in HTML, CSS, JavaScript, React, Node.js, Express.js, and MySQL through real-world projects.",
-  },
+ {
+  id: 1,
+  degree: "Master Of Computer Applications - MCA",
+  institution: "Gandhi Institute of Technology and Management",
+  location: "Visakhapatnam",
+  period: "2025 - 2027",
+  description:
+    "Pursuing a Master's degree in Computer Applications with a focus on software development, web technologies, database management, data structures, algorithms, and modern computing practices.",
+},
   {
     id: 2,
     degree: "Bachelor of Science in Computer Science",
