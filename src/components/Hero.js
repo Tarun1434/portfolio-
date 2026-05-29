@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/uc?export=download&id=1sVu8rz5ZAttxnqzRp9xMmKZQk341mSpD"
+              href="https://drive.google.com/uc?export=download&id=1KFy5RKpp1xBhzP7JRoL90bfFSelTBr1A"
               download
               className="flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
             >
@@ -32,11 +32,16 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-emerald-500 dark:border-emerald-400 shadow-xl">
-            <img src="https://res.cloudinary.com/dsnjnciud/image/upload/v1744363229/WhatsApp_Image_2025-04-11_at_2.49.52_PM_b5pmrx.jpg" alt="Profile" className="w-full h-full object-cover" />
-          </div>
-        </div>
+      <div className="md:w-1/2 flex justify-center">
+  <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-emerald-500 shadow-xl">
+    <img
+      src="https://res.cloudinary.com/dsnjnciud/image/upload/v1780071428/WhatsApp_Image_2026-05-21_at_8.54.08_AM_2_ioah7w.jpg"
+      alt="Profile"
+      className="w-full h-full object-cover"
+      style={{ objectPosition: "center 15%" }}
+    />
+  </div>
+</div>
       </div>
       <div className="flex justify-center mt-16">
         <a href="#projects" className="animate-bounce p-2 bg-white dark:bg-gray-700 rounded-full shadow-lg">
