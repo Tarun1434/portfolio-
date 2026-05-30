@@ -3,6 +3,15 @@ import { ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
+    title: "DocuMind AI",
+    description: "An AI-powered document intelligence platform that enables users to upload PDF documents, retrieve relevant information using Retrieval-Augmented Generation (RAG), and interact with documents through natural language conversations." ,
+    technologies: ["React", "Node.js", "Express", "Groq AI", "LangChain", "RAG", "Tailwind CSS"] ,
+    demoLink: "https://multi-agent-ai-system-tau.vercel.app/", 
+    githubLink: "https://github.com/Tarun1434/MULTI-AGENT-AI-SYSTEM",
+    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1780140136/Screenshot_2026-05-30_165100_v5qkzc.png",
+  },
+    {
+    id: 2,
     title: "College Admission Website",
     description:
       "A responsive college website built using React, HTML, CSS, and Bootstrap. It features an admission form where submitted student details are automatically sent to a connected Google Sheet for real-time data collection and management.",
@@ -12,7 +21,7 @@ const projects = [
     image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744362757/Screenshot_2025-04-11_144207_ugn38a.png?height=400&width=400",
   },
   {
-    id: 2,
+    id: 3,
     title: "FLAMES Relationship Finder",
     description:
       "A fun and interactive web app that calculates relationship compatibility using the FLAMES game logic. Built with React, it captures two names and dynamically shows the relationship result.",
@@ -21,16 +30,7 @@ const projects = [
     githubLink: "https://github.com/yourusername/flames-relationship",
     image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363400/Screenshot_2025-04-11_145249_b9x768.png?height=400&width=200",
   },
-  {
-    id: 3,
-    title: "WhatsApp ChatBot",
-    description:
-      "A simple WhatsApp chatbot that sends automated replies to user queries. Integrates deliver real-time responses based on user input.",
-    technologies: [ "JavaScript", "HTML", "CSS"],
-    demoLink: "https://whatsappchatbot.ccbp.tech/", 
-    githubLink: "https://github.com/yourusername/whatsapp-chatbot",
-    image: "https://res.cloudinary.com/dsnjnciud/image/upload/v1744363551/Xenioo-WhatsApp-Chatbots_nzitpk.png?height=200&width=400",
-  },
+ 
   {
     id: 4,
     title: "Tech Stack",
