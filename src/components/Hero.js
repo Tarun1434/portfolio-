@@ -17,8 +17,9 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/uc?export=download&id=1KFy5RKpp1xBhzP7JRoL90bfFSelTBr1A"
-              download
+              href="https://drive.google.com/file/d/1Ukv6Ax9s8yjTBL07OkxP3UlUiuxA6W-P/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
             >
               <Download size={20} />
